@@ -94,6 +94,7 @@
 
 不需要连续内存，可以通过 -Xmx 和 -Xms 来控制动态扩展内存大小，如果动态扩展失败会抛出 OutOfMemoryError 异常。
 
+
 ## 5. 方法区
 
 用于存放已被虚拟机加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。
@@ -170,7 +171,7 @@ Object obj = new Object();
 
 ```java
 Object obj = new Object();
-WeakReference<Object> wf = new WeakReference<Object>(obj);
+SoftReference<Object> sf = new SoftReference<Object>(obj);
 ```
 
 #### 1.3.3 弱引用
@@ -217,7 +218,7 @@ PhantomReference<Object> pf = new PhantomReference<Object>(obj);
 
 finalize() 类似 C++ 的析构函数，用来做关闭外部资源等工作。但是 try-finally 等方式可以做的更好，并且该方法运行代价高昂，不确定性大，无法保证各个对象的调用顺序，因此最好不要使用。
 
-当一个对象可被回收时，如果需要执行该对象的 finalize() 方法，那么就有可能可能通过在该方法中让对象重新被引用，从而实现自救。
+当一个对象可被回收时，如果需要执行该对象的 finalize() 方法，那么就有可能通过在该方法中让对象重新被引用，从而实现自救。
 
 ## 2. 垃圾收集算法
 

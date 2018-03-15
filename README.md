@@ -59,13 +59,17 @@
 
 整理自《数据库系统概论 第四版》
 
-> [SQL 语法](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/SQL%20语法.md)
+> [SQL](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/SQL.md)
 
 整理自《SQL 必知必会》
 
 > [MySQL](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/MySQL.md)
 
 整理自《高性能 MySQL》，整理了一些重点内容。
+
+> [Redis](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Redis.md)
+
+整理自《Redis 设计与实现》和《Redis 实战》
 
 ## Java :coffee:
 
@@ -89,7 +93,17 @@ File, InputStream OutputStream, Reader Writer, Serializable, Socket, NIO
 
 整理了一些常见考点。
 
-## 编码实践 :hammer:
+## 工具 :hammer:
+
+> [Git](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Git.md)
+
+整理一些 Git 的使用和概念。
+
+> [正则表达式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/正则表达式.md)
+
+整理自《正则表达式必知必会》
+
+## 编码实践 :speak_no_evil:
 
 > [重构](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/重构.md)
 
